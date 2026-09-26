@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ML generated data
+data/raw/
+data/interim/
+data/processed/
+
+# ML model artifacts
+models/*.pkl
+
+# Prediction logs
+audit/predictions.txt
